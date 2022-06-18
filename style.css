@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif
+}
+
+.fixed_box{
+  width: 100%;  height: auto;
+  background: #007769;  color: #fff;
+  padding: 1.75rem;
+  border-bottom: 3px solid #004a3f;
+}
+
+.fixed_box h1{
+  margin: 3rem 2.75rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.fixed_box h4{
+  margin: .75rem 2.75rem;
+  letter-spacing: 1px;
+}
+
+form{
+  height: auto;
+  margin: 4rem 2.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+  font-size: 25px;
+  margin: 1rem;
+}
+
+form input{
+  width: 390px;  height: 45px;
+  margin: .55rem 1rem;  padding: 18px 12px;
+  border: 1px solid #6abf69;
+  border-radius: 5px;
+  outline: none;
+  font-size: 22px;
+}
+
+form textarea{
+  width: 550px;  height: 380px;
+  margin: .55rem 1rem;  padding: 18px 12px;
+  border: 1px solid #6abf69;
+  border-radius: 5px;
+  outline: none;
+  font-size: 22px;
+}
+
+form hr{
+  width: 90%;
+  margin: 3rem .55rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #939393;
+}
+
+form button{
+  width: 390px;  height: auto;
+  margin: 2rem 1rem;  padding: 15px 12px;
+  border: 1px solid #003d32;
+  background: #007769;  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 22px;  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+form button:hover{
+  background: #fff;
+  color: cadetblue;
+}
+
+footer{
+  width: 100%;  height: auto;
+  background: #007769;  color: #fff;
+  padding: 1.75rem;
+  border-top: 2px solid #004a3f;
+}
+
+footer h2{
+  margin: 1.25rem 2.75rem;
+  letter-spacing: 1px;
+}
+
+footer h4{
+  margin: 1rem 2.75rem;
+  letter-spacing: 1px;
+}
+
+form .parent_msg_div{
+  display: flex;
+}
+
+form .parent_msg_div .msg{
+  width: 40%;
+}
+
+/* css with js */
+.error {
+  border: 2px solid red;
+}
+
+#errormsg{
+  color: red;
+  font-size: 19px;  font-weight: bold;
+  padding: 0 0.25rem;
+}
+
+.feedback{
+  margin: 5rem auto;
+  text-align: center;
+  display: none;
+  background: #66bb6a;
+  border-bottom: 2px solid #338a3e;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+.active{  display: block;}

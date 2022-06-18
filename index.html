@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta 
+    name="viewport"
+    content="width=device-width, initial-scale=1" >
+
+  <title> Contact Page validity </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="fixed_box">
+      <h1>Contact Us!</h1>
+      <h4>we'd really love to hear from you! Please fill the form before you submit.</h4>
+    </div>
+    <!-- / fixed_box -->
+
+    <h1 class="feedback">Thank You for sending us a message !</h1>
+
+    <form action="" method="GET" name="form" id="form">
+      <label>Full Name</label>
+      <div class="parent_div">
+        <input 
+          type="text"
+          name="username"
+          id="username" 
+          placeholder="Enter your name "/>
+        <span id="errormsg"></span>
+      </div>
+      <!-- name / -->
+      
+      <label>Email</label>
+      <div class="parent_div">
+        <input
+          type="email"
+          name="Email"
+          id="email" 
+          placeholder="e.g. your_example@gmail.com"/>
+        <span id="errormsg"></span>
+      </div>
+      <!-- email / -->
+      
+      <label>Message</label>
+      <div class="parent_msg_div">
+        <textarea
+          name="textarea"
+          placeholder="type your message ..."></textarea>
+        <span class="msg" id="errormsg"></span>
+      </div>
+      <!-- message / -->
+      
+      <hr>
+      <button type="submit">Submit</button>
+    </form>
+    <!-- / form -->
+
+    <footer>
+      <h2>Call Us</h2>
+      <h4>+91 111000××××××</h4>
+      <h2>Email</h2>
+      <h4>companyname@gamil.com</h4>
+      <h2>Address </h2>
+      <h4>Comeing Soon ...</h>
+    </footer>
+  </div>
+  <!-- / container -->
+
+  <script src="main.js"></script>
+</body>
+
+</html>
